@@ -1,0 +1,47 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .timerWrapper {
+        padding: 40px;
+
+        header {
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .indicator {
+                padding: 0 30px;
+                font-size: 80px;
+            }
+        }
+
+        footer {
+            padding-top: 30px;
+            text-align: center;
+        }
+        
+    }
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(20, 255, 0, 0.1);
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+
+    i {
+        font-size: 40px;
+    }
+}
